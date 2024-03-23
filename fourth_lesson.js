@@ -1,4 +1,4 @@
-//1. Object: kieu DL luu nhieu thong tin hon binh thuong
+// //1. Object: kieu DL luu nhieu thong tin hon binh thuong
 // let hocsinh ={
 //     'name': 'Thuy Nguyen',
 //     "address": "Ha Noi",
@@ -30,7 +30,7 @@
 
 
 //4. Function Date_time
-//let today= new Date();
+// let today= new Date();
 // // dynamic data to return
 // console.log(today.getDay());
 // console.log(today.getDate());
@@ -43,7 +43,7 @@
 
 // // //submit don hang => Khi view don hang => Se co 1 truong DL tu dong tao ra la dueDate= Ngay hien tai+ 7. 
 // // //Nhiem vu la dung automation verify truong du lieu dueDate do la dung
-// let today= new Date();
-// let dueDate= `${today.getDate()+7}-${today.getMonth()}-${today.getFullYear()}`
-// console.log(dueDate);
-// //Neu ngay thang nam tang len thi xu ly nhu the nao?
+let today= new Date();
+let dueDate= `${today.getDate()+7}-${today.getMonth()}-${today.getFullYear()}`
+console.log(dueDate);
+//Neu ngay thang nam tang len thi xu ly nhu the nao?

@@ -1,70 +1,70 @@
-// //Function
-// let hocsinh1 =
-// {
-//     firstName: 'Nguyen',
-//     lastName: 'Thuy',
-//     age: 32,
-//     state: 'Ha Noi',
-//     zipCode: '100000',
-//     street: 'Vo Chi Cong'
-// }
-// // in fullname and fulladress
-// // let fullName = `${hocsinh.firstName} ${hocsinh.lastName}`;
-// // let fullAdress = `${hocsinh.street} ${hocsinh.state} ${hocsinh.zipCode}`;
-// // console.log(fullName);
-// // console.log(fullAdress);
+//Function
+let hocsinh1 =
+{
+    firstName: 'Nguyen',
+    lastName: 'Thuy',
+    age: 32,
+    state: 'Ha Noi',
+    zipCode: '100000',
+    street: 'Vo Chi Cong'
+}
+// //in fullname and fulladress
+// let fullName = `${hocsinh1.firstName} ${hocsinh1.lastName}`;
+// let fullAdress = `${hocsinh1.street} ${hocsinh1.state} ${hocsinh1.zipCode}`;
+// console.log(fullName);
+// console.log(fullAdress);
 
-// //
+//
 
-// let hocsinh2 =
-// {
-//     firstName: 'Bui Anh',
-//     lastName: 'Quan',
-//     age: 3,
-//     state: 'Thai Binh',
-//     zipCode: '200000',
-//     street: 'Tien Hai'
-// }
+let hocsinh2 =
+{
+    firstName: 'Bui Anh',
+    lastName: 'Quan',
+    age: 3,
+    state: 'Thai Binh',
+    zipCode: '200000',
+    street: 'Tien Hai'
+}
 
 // //in fullname and fulladress
-// // let fullName1 = `${hocsinh2.firstName} ${hocsinh2.lastName}`;
-// // let fullAdress1 = `${hocsinh2.street} ${hocsinh2.state} ${hocsinh2.zipCode}`;
-// // console.log(fullName1);
-// // console.log(fullAdress1);
+// let fullName1 = `${hocsinh2.firstName} ${hocsinh2.lastName}`;
+// let fullAdress1 = `${hocsinh2.street} ${hocsinh2.state} ${hocsinh2.zipCode}`;
+// console.log(fullName1);
+// console.log(fullAdress1);
 
 
 // //tao function
-// function printInfo(hocsinh) {
-//     let fullName = `${hocsinh.firstName} ${hocsinh.lastName}`;
-//     let fullAdress = `${hocsinh.street} ${hocsinh.state} ${hocsinh.zipCode}`;
-//     console.log(fullName);
-//     console.log(fullAdress);
-// }
+function printInfo(hocsinh) {
+    let fullName = `${hocsinh.firstName} ${hocsinh.lastName}`;
+    let fullAdress = `${hocsinh.street} ${hocsinh.state} ${hocsinh.zipCode}`;
+    console.log(fullName);
+    console.log(fullAdress);
+}
 
 // // execute function
 // //de dang quan ly va de bao tri
 // //gom nhom hanh dong
-// // printInfo(hocsinh1);
-// // printInfo(hocsinh2);
-// // printInfo({});// goi object rong
+// printInfo(hocsinh1);
+// printInfo(hocsinh2);
+// printInfo({});// goi object rong
 
 
-// function printFullName(hocsinh) {
-//     let fullName = `${hocsinh.firstName} ${hocsinh.lastName}`;
-//     console.log(fullName);
-// }
+function printFullName(hocsinh) {
+    let fullName = `${hocsinh.firstName} ${hocsinh.lastName}`;
+    console.log(fullName);
+}
 
-// function printAddress(hocsinh) {
-//     let fullAdress = `${hocsinh.street} ${hocsinh.state} ${hocsinh.zipCode}`;
-//     console.log(fullAdress);
-// }
+function printAddress(hocsinh) {
+    let fullAdress = `${hocsinh.street} ${hocsinh.state} ${hocsinh.zipCode}`;
+    console.log(fullAdress);
+}
 // /*Goi Function trong Function=> De clear code sau de quan ly*/
-// // function printInforV2(hocsinh){
-// // printFullName(hocsinh);
-// // printAddress(hocsinh);
-// // }
-// // printInforV2(hocsinh1);
-// // printInforV2(hocsinh2);
+function printInforV2(hocsinh) {
+    printFullName(hocsinh);
+    printAddress(hocsinh);
+}
+printInforV2(hocsinh1);
+printInforV2(hocsinh2);
 
 // /*Function trong Function => Ko nen dung*/
 // // function doSomeThing(){
