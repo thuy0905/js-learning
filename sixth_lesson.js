@@ -66,15 +66,15 @@ function printInforV2(hocsinh) {
 printInforV2(hocsinh1);
 printInforV2(hocsinh2);
 
-// /*Function trong Function => Ko nen dung*/
-// // function doSomeThing(){
-// //     function doSomeThingElse(){
-// //         console.log("doSomeThingElse");
-// //     }
-// //     doSomeThingElse();
-// //     console.log("doSomeThingElse2");
-// // }
-// // doSomeThing();
+/*Function trong Function => Ko nen dung*/
+function doSomeThing(){
+    function doSomeThingElse(){
+        console.log("doSomeThingElse");
+    }
+    doSomeThingElse();
+    console.log("doSomeThingElse2");
+}
+doSomeThing();
 
 
 // /*
@@ -138,6 +138,9 @@ so luong parameter truyen vao 1 method(function)
 // console.log(divide(1,2,3));
 
 // function divideSuper(){
+//     return arguments[0]/arguments[1];
+// }
+// console.log(divideSuper(1,2));// function divideSuper(){
 //     return arguments[0]/arguments[1];
 // }
 // console.log(divideSuper(1,2));

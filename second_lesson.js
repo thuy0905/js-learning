@@ -7,7 +7,7 @@
 
 // console.log(b--);
 // console.log(b);
-// ?result=a+b;
+// result=a+b;
 // result=3;
 // result**=a;
 // console.log(result);
@@ -29,10 +29,10 @@
 // console.log(a<b);
 
 
-// let a= 'A';//10 0
-// let b= 'Ab';// 10 11
-// console.log(a<b);
-// console.log(a>b);
+let a= 'A';//10 0
+let b= 'Ab';// 10 11
+console.log(a<b);
+console.log(a>b);
 
 // let a=10;
 // let b= '5';
@@ -75,6 +75,6 @@
 // console.log(isLong);
 
 
-let status= "IN_PROGRESS";
-let result = status=='IN_PROGRESS' || status== 'ON_THE_WAY'|| status=='PENDING' ? 'VALID':'INVALID'
-console.log(result);
+// let status= "IN_PROGRESS";
+// let result = status=='IN_PROGRESS' || status== 'ON_THE_WAY'|| status=='PENDING' ? 'VALID':'INVALID'
+// console.log(result);

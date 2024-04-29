@@ -5,7 +5,7 @@
 // console.log(a);
 // console.log(typeof a);
 
-// //lay du lieu tu DB or API ma du lieu ko ton tai or ko co => NULL
+//lay du lieu tu DB or API ma du lieu ko ton tai or ko co => NULL
 //  let b= null;
 //  console.log(typeof b);
 
@@ -63,19 +63,19 @@
 // console.log(d);
 // let s= a/"abc";
 // console.log(s);
-//Math
+// Math
 // let x= 0.1 + 0.2;
 // console.log(Number(x).toFixed(1)==0.3);
 // console.log(Number(1).toFixed(5));
 
 //cong va cac toan tu khac voi chuoi
-// let a= "10";
-// let b= 3;
-// console.log(a+b);
-// console.log(a/b);
-// console.log(a*b);
-// console.log(a-b);
-// console.log(a**b);
+let a= "10";
+let b= 3;
+console.log(a+b);
+console.log(a/b);
+console.log(a*b);
+console.log(a-b);
+console.log(a**b);
 
 // let a=10;
 // let b= new Number(10);

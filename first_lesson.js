@@ -11,6 +11,7 @@
 // x= true;
 // console.log(x);
 
+//Khai báo con cha được ăn
 // let
 // {
 //     //Scope A
@@ -30,8 +31,8 @@
 // }
 
 // {
-//     //Scope A
-    
+    //Scope A
+ //1. Khai báo con nhưng cha sẽ ko được ăn   
 //     {
 //         //Scope B
 //         let a= 1;
@@ -47,8 +48,10 @@
 //     console.log(a);
 // }
 
+
+//2. Let biến con sẽ ăn cha gần nhất
 // {
-    //Scope A
+//    //Scope A
     
 //     let a=1;
     
@@ -68,7 +71,7 @@
 //     console.log(a);
 // }
 
-//const
+//3. Khai báo về const
 // const nameThuy= "Nguyen Thi Thuy";
 // nameThuy= "Nguyen Thi";
 // {
@@ -81,11 +84,11 @@
 
 // var
 
-{
-    a = 4; 
+// {
+//     a = 4; 
  
-    {
-         a = 3; 
-    }
-console.log(a);
-}
+//     {
+//          a = 3; 
+//     }
+// console.log(a);
+// 

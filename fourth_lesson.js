@@ -1,4 +1,4 @@
-// //1. Object: kieu DL luu nhieu thong tin hon binh thuong
+//1. Object: kieu DL luu nhieu thong tin hon binh thuong
 // let hocsinh ={
 //     'name': 'Thuy Nguyen',
 //     "address": "Ha Noi",
@@ -10,16 +10,16 @@
 // console.log(hocsinh[1]);
 
 
-//2.const for object
-// const hocsinh={};
-// hocsinh.name= 'Thuy Nguyen';
-// console.log(hocsinh);
+// //2.const for object
+// // const hocsinh={};
+// // hocsinh.name= 'Thuy Nguyen';
+// // console.log(hocsinh);
 
 //3.Date_time
-// let today = new Date();
-// console.log(today);
-// let exampleDate= new Date('2000-01-07');
-// console.log(exampleDate);
+let today = new Date();
+console.log(today);
+let exampleDate= new Date('2000-01-07');
+console.log(exampleDate);
 
 // console.log(new Date(2024,1));
 // console.log(new Date(2023,6,13));
@@ -43,7 +43,7 @@
 
 // // //submit don hang => Khi view don hang => Se co 1 truong DL tu dong tao ra la dueDate= Ngay hien tai+ 7. 
 // // //Nhiem vu la dung automation verify truong du lieu dueDate do la dung
-let today= new Date();
-let dueDate= `${today.getDate()+7}-${today.getMonth()}-${today.getFullYear()}`
-console.log(dueDate);
+// let today= new Date();
+// let dueDate= `${today.getDate()+7}-${today.getMonth()}-${today.getFullYear()}`
+// console.log(dueDate);
 //Neu ngay thang nam tang len thi xu ly nhu the nao?
